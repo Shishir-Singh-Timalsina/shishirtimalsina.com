@@ -9,7 +9,7 @@ export default class Heading extends Component {
     return (
       <div>
         <div>
-          <img class = "imageone" src = {image} width="700" height="500" /> 
+          <img class = "imageone" src = {image}/> 
           <p>My name is Shishir, a information Technology student in OAMK.
              I have been doing my Bachelors since 2014 including experience 
              with Websites, web application (Full stack developer), software
