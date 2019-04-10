@@ -4,7 +4,7 @@ export default class Heading extends Component {
   render() {
     return (
       <div>
-        <h1>Heading  PAGE </h1>
+        <h1>Shishir Singh Timalsina </h1>
 
       </div>
     )
