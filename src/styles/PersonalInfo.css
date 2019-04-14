@@ -1,6 +1,7 @@
 
 .personalInfo{
     display : inline-block;
+    align-content: center;
 }
 .imageone{
     display: inline-block;
