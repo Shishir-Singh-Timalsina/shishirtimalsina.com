@@ -7,7 +7,7 @@ import '../styles/PersonalInfo.css';
 export default class Heading extends Component {
   render() {
     return (
-      <div>
+      <div className = "personalInfo">
         <div>
           <img className = "imageone" src = {myimage} alt="My Awesome"/> 
         </div>
@@ -16,7 +16,15 @@ export default class Heading extends Component {
               with Websites, web application (Full stack developer), software
               development and mobile application development.
         </div>
-        <h3>Work still in progress</h3>
+        <div className ="skills">
+          <h2>What can I do for you ?</h2>
+          
+          <ul>
+              <li>Front end developer</li>
+              <li>UI designer</li>  
+          </ul> 
+        </div>
+        <h3>The website is still in develoement process.</h3>
       </div>
     )
   }

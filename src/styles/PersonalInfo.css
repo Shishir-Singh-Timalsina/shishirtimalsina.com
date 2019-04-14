@@ -1,4 +1,7 @@
 
+.personalInfo{
+    display : inline-block;
+}
 .imageone{
     display: inline-block;
     height: 200px;
@@ -12,12 +15,18 @@
 }
 
 .basicDescription{
-    display: inline-block;
     width: 300px;
     margin :    5px;
     border:     1px solid #000000;
     border-radius : 5px;
     vertical-align: top;
+}
 
+.skills{
+    width: 300px;
+    margin : 5px;
+    border:     1px solid #000000;
+    border-radius : 5px;
+    vertical-align: top;
 
 }
