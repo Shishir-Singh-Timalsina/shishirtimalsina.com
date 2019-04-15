@@ -3,12 +3,12 @@ import React, { Component } from 'react';
 
 
 
-export default class Storytime extends Component {
+export default class Memes extends Component {
   render() {
     return (
-        <div className = "storyTime ">
+        <div className = "memes ">
             <div>
-                <h3>StoryTime</h3>
+                <h3>Memes</h3>
             </div>
         </div>
     )

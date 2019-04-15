@@ -9,6 +9,9 @@ export default class Heading extends Component {
         <div className = "Navigation">
           <NavLink to="/">Home</NavLink>
           <NavLink to="/Projects">Projects</NavLink>
+          <NavLink to="/Hobby">Hobby</NavLink>
+          <NavLink to="/StoryTime">StoryTime</NavLink>
+          <NavLink to="/Memes">Memes</NavLink>
         </div>
 
       </div>
