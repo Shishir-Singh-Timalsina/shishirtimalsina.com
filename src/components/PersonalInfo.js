@@ -11,7 +11,7 @@ export default class Heading extends Component {
         <div>
           <img className = "imageone" src = {myimage} alt="My Awesome"/> 
         </div>
-        <div className = "basicDescription">My name is Shishir, a information Technology student in OAMK.
+        <div className = "basicDescription">My name is Shishir, an information Technology student in OAMK.
               I have been doing my Bachelors since 2014 including experience 
               with Websites, web application (Full stack developer), software
               development and mobile application development.
