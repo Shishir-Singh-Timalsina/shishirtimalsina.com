@@ -1,1 +1,1 @@
-new service worker{/* */}
+{/*new service worker */}
