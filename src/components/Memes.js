@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-//import '../styles/Memes.css';
+import '../styles/Memes.css';
 import { Button } from 'react-bootstrap';
 
 
