@@ -3,9 +3,14 @@
   "name": "Shishir Personal portfolio",
   "icons": [
     {
-      "src": "icon256x256.ico",
-      "sizes": "64x64 32x32 24x24 16x16 144x144",
+      "src": "favicon.ico",
+      "sizes": "256x256",
       "type": "image/x-icon"
+    },
+    {  
+      "src": "icon256x256.png",
+      "sizes": "512x512",  
+      "type": "image/png"  
     }
   ],
   "start_url": ".",

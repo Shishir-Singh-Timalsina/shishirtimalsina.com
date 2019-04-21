@@ -15,17 +15,19 @@ class App extends Component {
   render() {
     return (
     
-      <BrowserRouter>   {/*Creating Navbar  */}
-        <Heading />
-        <Switch>
-          <Route path="/" component = {PersonalInfo}  exact/>
-          <Route path="/Projects" component = {Projects} />
-          <Route path="/Hobby" component = {Hobby} />
-          <Route path="/StoryTime" component = {StoryTime} />
-          <Route path="/Memes" component = {Memes} />
-          <Route component = {Error} />
-        </Switch>
-      </BrowserRouter>
+      <container>
+        <BrowserRouter>   {/*Creating Navbar  */}
+          <Heading />
+          <Switch>
+            <Route path="/" component = {PersonalInfo}  exact/>
+            <Route path="/Projects" component = {Projects} />
+            <Route path="/Hobby" component = {Hobby} />
+            <Route path="/StoryTime" component = {StoryTime} />
+            <Route path="/Memes" component = {Memes} />
+            <Route component = {Error} />
+          </Switch>
+        </BrowserRouter>
+      </container>
     );
   }
 }
