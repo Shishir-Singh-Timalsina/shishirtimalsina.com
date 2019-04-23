@@ -14,7 +14,7 @@ export default class Heading extends Component {
         <div className = "basicDescription">My name is Shishir, an information Technology student in OAMK.
               I have been doing my Bachelors since 2014 including experience 
               with Websites, web application (Full stack developer), software
-              development and mobile application development.
+              development and mobile application development.!!!
         </div>
         <div className ="skills">
           <h2>What can I do for you ?</h2>
