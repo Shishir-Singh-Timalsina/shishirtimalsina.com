@@ -10,7 +10,6 @@ export default class Heading extends Component {
         <div className = "projects ">
             <div>
                 List of projects<br/>
-                
                 <Button variant="primary">Projects</Button>
 
             </div>
