@@ -9,8 +9,6 @@ export default class Heading extends Component {
     return (
         <div className = "projects ">
             <div>
-                List of projects<br/>
-                <Button variant="primary">Projects</Button>
 
             </div>
         </div>
