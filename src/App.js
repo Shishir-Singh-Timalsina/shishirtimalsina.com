@@ -8,6 +8,7 @@ import Hobby from './components/Hobby';
 import StoryTime from './components/Storytime';
 import Memes from './components/Memes';
 
+import { Container } from 'react-bootstrap';
 
 
 
@@ -15,7 +16,7 @@ class App extends Component {
   render() {
     return (
     
-      <container>
+      <Container>
         <BrowserRouter>   {/*Creating Navbar  */}
           <Heading />
           <Switch>
@@ -27,7 +28,7 @@ class App extends Component {
             <Route component = {Error} />
           </Switch>
         </BrowserRouter>
-      </container>
+      </Container>
     );
   }
 }
