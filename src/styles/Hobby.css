@@ -1,0 +1,10 @@
+
+.hobby{
+    display : inline-block;
+}
+.hobbyList{
+    display : inline-block;
+    width: 400px;
+    border:     2px solid #000000;
+    border-radius : 6px;
+}
