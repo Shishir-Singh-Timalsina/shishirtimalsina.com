@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import myimage from '../images/rt.jpg';
+import myimage from '../images/profilepicture.jpg';
 import '../styles/PersonalInfo.css';
 
 
