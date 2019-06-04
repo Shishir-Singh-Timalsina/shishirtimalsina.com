@@ -11,7 +11,6 @@ import Memes from './components/Memes';
 import { Container } from 'react-bootstrap';
 
 
-
 class App extends Component {
   render() {
     return (
@@ -20,12 +19,14 @@ class App extends Component {
         <BrowserRouter>   {/*Creating Navbar  */}
           <Heading />
           <Switch>
-            <Route path="/" component = {PersonalInfo}  exact/>
-            <Route path="/Projects" component = {Projects} />
-            <Route path="/Hobby" component = {Hobby} />
-            <Route path="/StoryTime" component = {StoryTime} />
-            <Route path="/Memes" component = {Memes} />
-            <Route component = {Error} />
+            
+              <Route path="/" component = {PersonalInfo}  exact/>
+              <Route path="/Projects" component = {Projects} />
+              <Route path="/Hobby" component = {Hobby} />
+              <Route path="/StoryTime" component = {StoryTime} />
+              <Route path="/Memes" component = {Memes} />
+              <Route component = {Error} />
+          
           </Switch>
         </BrowserRouter>
       </Container>

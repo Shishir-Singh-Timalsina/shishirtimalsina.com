@@ -9,6 +9,7 @@ export default class Heading extends Component {
     return (
         <div className = "projects ">
             <div>
+              <h1>Projects</h1>
 
             </div>
         </div>
