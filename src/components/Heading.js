@@ -7,13 +7,9 @@ export default class Heading extends Component {
   render() {
     return (
       <div className="heading">
-        <h1>Shishir Singh Timalsina </h1>
         <Navbar collapseOnSelect expand="lg" bg="light">
           
-
-
-
-          <Navbar.Brand href="#home"> 
+          <Navbar.Brand href="#home"> Shishir Singh Timalsina
             {/*<img className = "imageone" src = {navicon} alt="My Awesome"/> */}
           </Navbar.Brand>
 
