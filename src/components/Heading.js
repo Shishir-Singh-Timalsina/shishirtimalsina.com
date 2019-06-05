@@ -9,13 +9,13 @@ export default class Heading extends Component {
       <div className="heading">
         <Navbar collapseOnSelect expand="lg" bg="light">
           
-          <Navbar.Brand href="#home"> Shishir Singh Timalsina
+          <Navbar.Brand href="#home"> <b>Shishir Singh Timalsina</b>
             {/*<img className = "imageone" src = {navicon} alt="My Awesome"/> */}
           </Navbar.Brand>
 
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="mr-auto">
+            <Nav variant = "Pills" className="mr-auto" > 
              
              {/* <NavLink to="/">Home</NavLink>
               <NavLink to="/Projects">Projects</NavLink>
@@ -24,7 +24,9 @@ export default class Heading extends Component {
               <NavLink to="/Memes">Memes</NavLink>      OLd Style
             */}
 
+            
               <Nav.Link href = "/">Home</Nav.Link>
+            
               <Nav.Link href = "/Projects">Projects</Nav.Link>
 
               <Nav.Link href = "/Hobby">Hobby</Nav.Link>
