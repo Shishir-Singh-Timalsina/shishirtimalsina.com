@@ -15,10 +15,10 @@ export default class Hobby extends Component {
                 <h3>Hobbies</h3>
                 <div classname="hobbyList">
                   <ul>
-                    <li>Photography</li>
+                    <li><a href = "https://www.instagram.com/n00bography/"><Button variant="info"> Photography (instagram)</Button></a></li>
                     <li>Guitar</li>
                     <li>Volleyball</li>
-                    <li><a href = "https://www.youtube.com/channel/UCMzhjSdYumin3Fx5a2oK16w?view_as=subscriber">   <Button variant="outline-danger">Youtube</Button></a></li>
+                    <li><a href = "https://www.youtube.com/channel/UCS_Ip3beN_hnZax-ZUJGmGg/videos?view_as=subscriber">   <Button variant="outline-danger">Gaming (Youtube)</Button></a></li>
                   </ul>
                 </div>  
             </div>
