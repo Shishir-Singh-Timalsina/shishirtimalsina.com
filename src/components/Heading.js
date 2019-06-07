@@ -10,7 +10,6 @@ export default class Heading extends Component {
         <Navbar collapseOnSelect expand="lg" bg="light">
           
           <Navbar.Brand href="#home"> <b>Shishir Singh Timalsina</b>
-            {/*<img className = "imageone" src = {navicon} alt="My Awesome"/> */}
           </Navbar.Brand>
 
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />

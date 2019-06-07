@@ -16,7 +16,7 @@ class App extends Component {
     return (
     
       <Container>
-        <BrowserRouter>   {/*Creating Navbar  */}
+        <BrowserRouter>   {/*Creating Routing  */}
           <Heading />
           <Switch>
             
