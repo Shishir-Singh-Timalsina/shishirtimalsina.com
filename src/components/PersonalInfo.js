@@ -33,7 +33,7 @@ export default class Heading extends Component {
               <li>UI designer</li>  
           </ul> 
         </div>
-        <h3>The website is still in develoement process.</h3>
+        <h3>The website is still under process  development process.</h3>
       </div>
     )
   }
