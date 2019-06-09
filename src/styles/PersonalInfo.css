@@ -16,9 +16,9 @@
 
 .basicDescription{
     display : inline-block;
-    /*width: 3500px;*/
     border:     1px solid #000000;
     border-radius : 6px;
+    padding: 10px;
 }
 
 .skills{

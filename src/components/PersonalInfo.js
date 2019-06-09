@@ -12,18 +12,18 @@ export default class Heading extends Component {
           <img className = "imageone" src = {myimage} alt="My Awesome"/> 
         </div>
         <div className = "basicDescription">
-              <hr/>
+  
               My name is Shishir Singh Timalsina, an information Technology student in OAMK.
               I have been doing my Bachelors since 2014 including experience 
               with Websites, web application (Full stack developer), software
               development and mobile application development.!!!
               <br/><br/><hr/>
-              Country of orgin Nepal.
+              Country of orgin Nepal
               <br/>
                DOB 1992-04-28
               <br/><hr/>
               Email: shishir.singh.timalsina@gmail.com
-              <hr/>
+            
         </div>
         <div className ="skills">
           <h2>What can I do for you ?</h2>
