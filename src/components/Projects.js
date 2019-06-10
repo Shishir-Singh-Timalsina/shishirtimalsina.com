@@ -11,7 +11,7 @@ export default class Heading extends Component {
             <div>
               <h1>Projects</h1>
 
-              <div className = "Runaware">
+              <div className = "runaware">
                 <h4>Runaware</h4>
                 <h5>Android Application Prototype</h5>
                 <p>
@@ -27,9 +27,9 @@ export default class Heading extends Component {
                 </p>
               </div>
 
-              <div className = "Lapland Hunter">
+              <div className = "lapLandHunter">
                 <h4>Lapland Hunter</h4>
-                  <h5>Basic Game design Prototype (FPS)</h5>
+                  <h5>Basic FPS Game design Demo</h5>
                   <p>
                   </p>
               </div>
