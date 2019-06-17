@@ -15,15 +15,15 @@ export default class Heading extends Component {
                 <h4>Runaware</h4>
                 <h5>Android Application Prototype</h5>
                 <p>
-                  Runaware was a android application prototype developed during 
+                  Runaware is a android application prototype developed during 
                   DEVLAB 2018 for school students age gruop 11 - 15. To motivate students
                   with heavy sedentary behaviour during school hour a game was 
                   designed. The game simply count steps from the person and rewards them.
                   <br/><br/>
-                  Video link to the demonstration  -><a href = "https://www.youtube.com/watch?v=3lXhIZHJPkg&t=6s"> Youtube </a>
+                  Video link to the demonstration  -><a href = "https://www.youtube.com/watch?v=3lXhIZHJPkg&t=6s"> Runaware-Youtube </a>
                   <br/><br/>
                   *Note: This prototype was developed in Android studio. It was 
-                  developed with basic XML and Java.
+                  developed with XML and Java.
                 </p>
               </div>
 
@@ -31,8 +31,15 @@ export default class Heading extends Component {
                 <h4>Lapland Hunter</h4>
                   <h5>Basic FPS Game design Demo</h5>
                   <p>
-                  </p>
-              </div>
+                    This game prototype was developed during the course of Game Design. 
+                    Its a very basic setup with open world and few targets to shoot with
+                    a gun. 
+                    <br/><br/>
+                    Video link to the demo -> <a href ="https://www.youtube.com/watch?v=FqMvNhaGm6g&t=1s">Lapland-Hunter-youtube</a>
+                    <br/> <br/>
+                    *My Responsibities: Game Mechahanics design and design document. 
+                    </p>
+                </div>
 
             </div>
         </div>
