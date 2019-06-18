@@ -37,7 +37,7 @@ export default class Heading extends Component {
                     <br/><br/>
                     Video link to the demo -> <a href ="https://www.youtube.com/watch?v=FqMvNhaGm6g&t=1s">Lapland-Hunter-youtube</a>
                     <br/> <br/>
-                    *My Responsibities: Game Mechahanics design and design document. 
+                    *My Responsibities: Game Mechahanics d esign and design document. 
                     </p>
                 </div>
 
