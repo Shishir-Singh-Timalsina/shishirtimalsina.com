@@ -23,8 +23,14 @@
 
 .skills{
     display : inline-block;
-    width: 300px;
+    width: 500px;
     margin : 5px;
+    border:     1px solid #000000;
+    border-radius : 6px;
+}
+
+.teamMatesFeedback{
+    display : inline-block;
     border:     1px solid #000000;
     border-radius : 6px;
 }

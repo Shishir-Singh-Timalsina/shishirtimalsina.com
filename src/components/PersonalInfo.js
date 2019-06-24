@@ -49,7 +49,27 @@ export default class Heading extends Component {
               <li>Usability Testing</li>
           </ul> 
         </div>
-        <h3>The website is still under process  development process.</h3>
+
+        <br/>
+        <div className = "teamMatesFeedback"> 
+          <h2>Team Mates Feedback</h2>
+          <ul>
+            <li>You turned out to be a motivated team member,
+               who is fully concentrated on the things you are doing.
+                I enjoy your willingness to challenge yourself and 
+                extend your skills in different disciplines related 
+                to IT and business.</li>
+              <li>You are interested in what the other team-members has 
+                been working on. You care about the team!</li>
+          </ul>
+
+        </div>
+
+
+        <h3>Better experience in mobile view. Designed as a PWA (Progressive web application)
+          <br/><br/>
+          The website is still under process  development process.
+        </h3>
 
       </div>
     )
