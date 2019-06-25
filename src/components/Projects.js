@@ -18,7 +18,7 @@ export default class Heading extends Component {
                   Runaware is a android application prototype developed during 
                   DEVLAB 2018 for school students age gruop 11 - 15. To motivate students
                   with heavy sedentary behaviour during school hour a game was 
-                  designed. The game simply count steps from the person and rewards them.
+                  designed. The game simply count st-u oeps from the person and rewards them.
                   <br/><br/>
                   Video link to the demonstration  -><a href = "https://www.youtube.com/watch?v=3lXhIZHJPkg&t=6s"> Runaware-Youtube </a>
                   <br/><br/>
@@ -35,6 +35,7 @@ export default class Heading extends Component {
                     Its a very basic setup with open world and few targets to shoot with
                     a gun. 
                     <br/><br/>
+                    
                     Video link to the demo -> <a href ="https://www.youtube.com/watch?v=FqMvNhaGm6g&t=1s">Lapland-Hunter-youtube</a>
                     <br/> <br/>
                     *My Responsibities: Game Mechahanics d esign and design document. 
