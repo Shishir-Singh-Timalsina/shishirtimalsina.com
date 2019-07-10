@@ -9,7 +9,7 @@ export default class Heading extends Component {
       <div className="heading">
         <Navbar collapseOnSelect expand="lg" bg="light">
           
-          <Navbar.Brand href="#home"> <b>Shishir Singh Timalsina</b>
+          <Navbar.Brand href="/"> <b>Shishir Singh Timalsina</b>
           </Navbar.Brand>
 
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />

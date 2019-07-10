@@ -1,6 +1,6 @@
 
 .personalInfo{
-    display : inline-block;
+    /*display : inline-block;*/
 }
 .imageone{
     display : inline-block;
@@ -16,21 +16,18 @@
 
 .basicDescription{
     display : inline-block;
-    border:     1px solid #000000;
+    
     border-radius : 6px;
     padding: 10px;
 }
 
 .skills{
     display : inline-block;
-    width: 500px;
+    width: 300px;
     margin : 5px;
-    border:     1px solid #000000;
     border-radius : 6px;
 }
 
 .teamMatesFeedback{
     display : inline-block;
-    border:     1px solid #000000;
-    border-radius : 6px;
 }

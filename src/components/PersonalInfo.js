@@ -32,14 +32,15 @@ export default class Heading extends Component {
           ​
           In futue I would like to be a enterprenuer working in development of applications 
           for different fields of work. ​
-          <br/><br/><hr/>
+          <br/><br/>
           DOB 1992-04-28
-          <br/><hr/>
+          <br/><br/>
           Email: shishir.singh.timalsina@gmail.com
 
         </div>
   
 
+        <hr/>
         <div className ="skills">
           <h2>What can I do for you ?</h2>
           
@@ -51,6 +52,8 @@ export default class Heading extends Component {
         </div>
 
         <br/>
+        <br/>
+        <hr/>
         <div className = "teamMatesFeedback"> 
           <h2>Team Mates Feedback</h2>
           <ul>
@@ -64,6 +67,10 @@ export default class Heading extends Component {
           </ul>
 
         </div>
+
+        <br/><br/><br/><br/>
+
+        <hr/>
 
 
         <h3>Better experience in mobile view. Designed as a PWA (Progressive web application)
