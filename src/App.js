@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {BrowserRouter, Route, Switch} from  "react-router-dom";
 
+
 import Heading from './components/Heading';
 import PersonalInfo from './components/PersonalInfo';
 import Projects from './components/Projects';
@@ -12,6 +13,7 @@ import { Container } from 'react-bootstrap';
 
 
 class App extends Component {
+
   render() {
     return (
     

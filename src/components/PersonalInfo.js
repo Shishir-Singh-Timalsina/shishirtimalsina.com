@@ -35,7 +35,7 @@ export default class Heading extends Component {
           <br/><br/>
           DOB 1992-04-28
           <br/><br/>
-          Email: shishir.singh.timalsina@gmail.com
+          <h4>Email: shishir.singh.timalsina@gmail.com</h4>
 
         </div>
   
@@ -45,9 +45,9 @@ export default class Heading extends Component {
           <h2>What can I do for you ?</h2>
           
           <ul>
-              <li>Web Design </li>
-              <li>UI designer</li>  
-              <li>Usability Testing</li>
+              <li><h4>Web Design</h4> </li>
+              <li><h4>UI designer</h4></li>  
+              <li><h4>Usability Testing</h4></li>
           </ul> 
         </div>
 
@@ -73,10 +73,10 @@ export default class Heading extends Component {
         <hr/>
 
 
-        <h3>Better experience in mobile view. Designed as a PWA (Progressive web application)
+        <h4>Better experience in mobile view. Designed as a PWA (Progressive web application)
           <br/><br/>
           The website is still under process  development process.
-        </h3>
+        </h4>
 
       </div>
     )

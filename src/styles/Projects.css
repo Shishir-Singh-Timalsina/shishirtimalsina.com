@@ -19,3 +19,11 @@
     margin-top: 15px;
 
 }
+.valkkyla{
+    display : inline-block;
+    border:     1px solid #000000;
+    border-radius : 6px;
+    padding : 10px;
+    margin-top: 15px;
+
+}

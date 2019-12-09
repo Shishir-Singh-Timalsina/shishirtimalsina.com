@@ -17,3 +17,12 @@
     vertical-align: top;
     margin: 5px;
 }
+.meme3{
+    height: 400px;
+    width:  300px;
+    border: 1px solid #DDD;
+    border-radius: 10px;
+    overflow: hidden;
+    vertical-align: top;
+    margin: 5px;
+}

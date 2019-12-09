@@ -15,13 +15,7 @@ export default class Heading extends Component {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav variant = "Pills" className="mr-auto" > 
-             
-             {/* <NavLink to="/">Home</NavLink>
-              <NavLink to="/Projects">Projects</NavLink>
-              <NavLink to="/Hobby">Hobby</NavLink>
-              <NavLink to="/StoryTime">StoryTime</NavLink>
-              <NavLink to="/Memes">Memes</NavLink>      OLd Style
-            */}
+        
 
             
               <Nav.Link href = "/">Home</Nav.Link>
