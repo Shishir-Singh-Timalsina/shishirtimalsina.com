@@ -9,7 +9,7 @@ import Hobby from './components/Hobby';
 import StoryTime from './components/Storytime';
 import Memes from './components/Memes';
 
-import { Container } from 'react-bootstrap';
+//import { Container } from 'react-bootstrap';
 
 
 class App extends Component {
@@ -17,7 +17,7 @@ class App extends Component {
   render() {
     return (
     
-      <Container>
+      <div class = "container-fluid">
         <BrowserRouter>   {/*Creating Routing  */}
           <Heading />
           <Switch>
@@ -31,7 +31,7 @@ class App extends Component {
           
           </Switch>
         </BrowserRouter>
-      </Container>
+      </div>
     );
   }
 }

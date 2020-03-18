@@ -7,7 +7,7 @@ import '../styles/Projects.css';
 export default class Heading extends Component {
   render() {
     return (
-        <div className = "projects ">
+        <div className = "projects " class="container">
             <div>
               <h1>Projects</h1>
               <div className = "valkkyla">
