@@ -54,7 +54,7 @@ export default class Heading extends Component {
                 <h4>Lapland Hunter</h4>
                   <h5>Basic FPS Game design Demo</h5>
                   <p>
-                    This game prototype was developed during the course of Game Design. 
+                    This RPG prototype was developed during the course of Game Design. 
                     Its a very basic setup with open world and few targets to shoot with
                     a gun. 
                     <br/><br/>
