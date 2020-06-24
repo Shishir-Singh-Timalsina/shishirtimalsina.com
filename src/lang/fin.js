@@ -1,8 +1,8 @@
 export default{
 
-    title : "Mathillo Header",
+    title : "Ylos Header",
     paragraphs:{
-      p1:"Pahilo PAragraph <b>HTML</b>",
+      p1:"Ensin lsdf <b>HTML</b>",
     }
 
 }

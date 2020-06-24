@@ -16,9 +16,9 @@ export default class Heading extends Component {
         <div className = "basicDescription">
         
         
-        My name is Shishir Singh Timalsina. <br/>
+        My name is <strong>Shishir Singh Timalsina</strong>. <br/>
 
-          I arrived in Finland in autum of  2014. I immediately started my studies of IT engineering  at OAMK.​
+          I arrived in Finland in autum of  2014. I immediately started my studies of <strong>IT engineering  at OAMK</strong>.​
           At present I am in final years of my study.​<br/>
 
           I am really passionate about designing and  developing applications for 
@@ -35,6 +35,9 @@ export default class Heading extends Component {
           <br/><br/>
           DOB 1992-04-28
           <br/><br/>
+          <h4> Graduate and Looking for Emplyment</h4>
+
+          <br/><br/>
           <h4>Email: shishir.singh.timalsina@gmail.com</h4>
 
         </div>
@@ -42,7 +45,7 @@ export default class Heading extends Component {
 
         <hr/>
         <div className ="skills">
-          <h2>What can I do for you ?</h2>
+          <h4>  What can I do for you ?</h4>
           
           <ul>
               <li><h4>Web Design</h4> </li>
