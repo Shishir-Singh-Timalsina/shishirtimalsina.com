@@ -24,7 +24,7 @@ export default class Heading extends Component {
 
               <Nav.Link href = "/Hobby">Hobby</Nav.Link>
 
-              <Nav.Link href = "/StoryTime">StoryTime</Nav.Link>
+              <Nav.Link href = "/StoryTime">Practice Ground</Nav.Link>
               <Nav.Link href = "/Memes">Memes</Nav.Link>
 
 

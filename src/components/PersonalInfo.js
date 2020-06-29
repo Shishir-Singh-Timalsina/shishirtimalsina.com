@@ -10,16 +10,16 @@ export default class Heading extends Component {
     return (
       <div className = "personalInfo" class ="container">
 
-        <div>
+        <div id="profilePicture">                                                 {/*Profile Picture */}                                                         
           <img className = "imageone" src = {myimage2} alt="My Awesome"/> 
         </div>
 
-        <div className = "basicDescription">
+        <div className = "basicDescription">                                       {/*Introduction Paragraph */}
         
         
         My name is <strong>Shishir Singh Timalsina</strong>. <br/><br/>
 
-          I arrived in Finland in autum of  2014. I immediately started my studies of <strong>IT engineering </strong> from <strong>OAMK</strong>.​
+          I arrived in Finland in autum of  2014 from <strong>Nepal</strong>. I immediately started my studies of <strong>IT engineering </strong> from <strong>OAMK</strong>.​
           At present I have completed my studies.​<br/><br/>
 
           I am really passionate about designing and  developing applications for 
@@ -52,24 +52,25 @@ export default class Heading extends Component {
               <li><h4>Web Design</h4> </li>
               <li><h4>UI designer</h4></li>  
               <li><h4>Usability Testing</h4></li>
-          </ul> 
+          </ul>
         </div>
 
-        <br/>
-        <br/>
+        <br/><br/>
+
         <hr/>
-        <h2>Team Mates Feedback</h2>
+
+        <h2>Team Mates Feedback</h2>                                                      {/*Teammates Feedback*/}
         <div className = "teamMatesFeedback"> 
-         
-          <ul>
-            <li>You turned out to be a motivated team member,
+         <p>
+              You turned out to be a motivated team member,
                who is fully concentrated on the things you are doing.
                 I enjoy your willingness to challenge yourself and 
                 extend your skills in different disciplines related 
-                to IT and business.</li>
-              <li>You are interested in what the other team-members has 
-                been working on. You care about the team!</li>
-          </ul>
+                to IT and business.<br/><br/>
+
+                You are interested in what the other team-members has 
+                been working on. You care about the team!
+           </p>
 
         </div>
 

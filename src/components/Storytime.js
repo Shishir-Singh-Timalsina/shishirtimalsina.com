@@ -25,6 +25,9 @@ export default class Storytime extends Component {
     return (
       <div>
 
+
+        <p>This Page is used for practicing new things </p>
+
         <select value = {this.state.lang} onChange ={ this.onLangChange}>
           <option value = "en">ENG</option>
           <option value = "fin">FIN</option>
