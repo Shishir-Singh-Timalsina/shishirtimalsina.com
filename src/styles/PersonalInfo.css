@@ -16,6 +16,7 @@
 
 .basicDescription{
     display : inline-block;
+    text-align: justify;
     
     border-radius : 6px;
     padding: 10px;
@@ -30,4 +31,5 @@
 
 .teamMatesFeedback{
     display : inline-block;
+    text-align: justify;
 }

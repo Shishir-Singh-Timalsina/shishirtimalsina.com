@@ -1,5 +1,6 @@
-import React, { Component } from 'react';
-import myimage from '../images/profilepicture.jpg';
+import React,{ Component } from 'react';
+//import myimage1 from '../images/profilepicture.jpg'; //Not in use at the moment
+import myimage2 from '../images/pp2.jpg';
 import '../styles/PersonalInfo.css';
 
 
@@ -10,16 +11,16 @@ export default class Heading extends Component {
       <div className = "personalInfo" class ="container">
 
         <div>
-          <img className = "imageone" src = {myimage} alt="My Awesome"/> 
+          <img className = "imageone" src = {myimage2} alt="My Awesome"/> 
         </div>
 
         <div className = "basicDescription">
         
         
-        My name is <strong>Shishir Singh Timalsina</strong>. <br/>
+        My name is <strong>Shishir Singh Timalsina</strong>. <br/><br/>
 
-          I arrived in Finland in autum of  2014. I immediately started my studies of <strong>IT engineering  at OAMK</strong>.​
-          At present I am in final years of my study.​<br/>
+          I arrived in Finland in autum of  2014. I immediately started my studies of <strong>IT engineering </strong> from <strong>OAMK</strong>.​
+          At present I have completed my studies.​<br/><br/>
 
           I am really passionate about designing and  developing applications for 
           phones and desktop enviroments including experience 
@@ -29,13 +30,13 @@ export default class Heading extends Component {
           desiging and testing of the applications. I am an enthusiastic developer ready to design
           and devlop systems. Adjust quickly to new environment and very good team worker.​<br/>
 
-          ​
+          ​<br/>
           In futue I would like to be a enterprenuer working in development of applications 
           for different fields of work. ​
           <br/><br/>
           DOB 1992-04-28
           <br/><br/>
-          <h4> Graduate and Looking for Emplyment</h4>
+          <h4> Graduate and seeking Emplyment</h4>
 
           <br/><br/>
           <h4>Email: shishir.singh.timalsina@gmail.com</h4>
@@ -57,8 +58,9 @@ export default class Heading extends Component {
         <br/>
         <br/>
         <hr/>
+        <h2>Team Mates Feedback</h2>
         <div className = "teamMatesFeedback"> 
-          <h2>Team Mates Feedback</h2>
+         
           <ul>
             <li>You turned out to be a motivated team member,
                who is fully concentrated on the things you are doing.
