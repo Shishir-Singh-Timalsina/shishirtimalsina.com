@@ -3,37 +3,37 @@ import React, { Component } from 'react'
 import {Navbar} from 'react-bootstrap';
 import {Nav} from 'react-bootstrap';
 
+
 export default class Heading extends Component {
   render() {
     return (
-      <div className="heading">
-        <Navbar collapseOnSelect expand="lg" bg="light">
+      <header>
+        <div className="heading">
+          <Navbar collapseOnSelect expand="lg" bg="light">
+            
+            <Navbar.Brand href="/"> <b>Shishir Singh Timalsina</b>
+            </Navbar.Brand>
+
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Navbar.Collapse id="responsive-navbar-nav">
+              <Nav variant = "Pills" className="mr-auto" > 
           
-          <Navbar.Brand href="/"> <b>Shishir Singh Timalsina</b>
-          </Navbar.Brand>
+              
+                <Nav.Link href = "/">Home</Nav.Link>
+              
+                <Nav.Link href = "/Projects">Projects</Nav.Link>
 
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav variant = "Pills" className="mr-auto" > 
-        
+                <Nav.Link href = "/Hobby">Hobby</Nav.Link>
 
-            
-              <Nav.Link href = "/">Home</Nav.Link>
-            
-              <Nav.Link href = "/Projects">Projects</Nav.Link>
+                <Nav.Link href = "/StoryTime">Play-Ground</Nav.Link>
+                <Nav.Link href = "/Memes">Memes</Nav.Link>
 
-              <Nav.Link href = "/Hobby">Hobby</Nav.Link>
+              </Nav>
+            </Navbar.Collapse>
+          </Navbar>
 
-              <Nav.Link href = "/StoryTime">Practice Ground</Nav.Link>
-              <Nav.Link href = "/Memes">Memes</Nav.Link>
-
-
-
-            </Nav>
-          </Navbar.Collapse>
-        </Navbar>
-
-      </div>
+        </div>
+      </header>
     )
   }
 }

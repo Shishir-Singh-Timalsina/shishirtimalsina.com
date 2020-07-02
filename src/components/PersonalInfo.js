@@ -74,16 +74,6 @@ export default class Heading extends Component {
 
         </div>
 
-        <br/><br/><br/><br/>
-
-        <hr/>
-
-
-        <h4>Better experience in mobile view. Designed as a PWA (Progressive web application)
-          <br/><br/>
-          The website is still under process  development process.
-        </h4>
-
       </div>
     )
   }
