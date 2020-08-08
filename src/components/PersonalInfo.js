@@ -8,7 +8,7 @@ import '../styles/PersonalInfo.css';
 export default class Heading extends Component {
   render() {
     return (
-      <div className = "personalInfo" class ="container">
+      <div className = "personalInfo" class="container">
 
         <div id="profilePicture">                                                 {/*Profile Picture */}                                                         
           <img className = "imageone" src = {myimage2} alt="My Awesome"/> 

@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import {BrowserRouter, Route, Switch} from  "react-router-dom";
 
-
-
-
 import Heading from './components/Heading';
 import PersonalInfo from './components/PersonalInfo';
 import Projects from './components/Projects';
@@ -24,9 +21,10 @@ class App extends Component {
   render() {
     return (
 
-    <div classname="page-container">
-      <div classname="content-wrap">
-        <div class = "container-fluid">
+    <div id="page-container">
+      <div id="content-wrap">
+        <div className = "container-fluid">
+
           <BrowserRouter>                                      {/*Creating Routing  */}
             <Heading />
             <Switch>
@@ -43,7 +41,12 @@ class App extends Component {
           
         </div>
       </div>
-      <Footer />  
+
+      <footer id="main-footer">
+        <Footer />        {/*Footer on the base of the page */}
+        </footer>
+
+
     </div>
 
     );
